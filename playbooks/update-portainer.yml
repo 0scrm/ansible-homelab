@@ -1,0 +1,4 @@
+- hosts: "*"
+  become: yes
+  tasks:
+    - include_tasks: ../tasks/portainer/upgrade.yml

@@ -1,0 +1,6 @@
+- name: Remove portainer container
+  docker_container:
+    name: portainer
+    state: absent
+
+- include_tasks: create-container.yml

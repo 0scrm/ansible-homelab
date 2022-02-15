@@ -1,0 +1,4 @@
+- name: Create portainer_data volume
+  docker_volume:
+    name: portainer_data
+    state: present
